@@ -86,20 +86,22 @@ body{
     justify-content: space-between;
 
 }
+/* section4 */
 .section4 .col{
     background-image: url("images/desktop/image-graphic-design.jpg");
-    max-height: 50vh;
-
-    position: relative;
+    height: 500px;
+    width: 720px;
     
 }
 .section4 .col1{
     background-image: url('images/desktop/image-photography.jpg');
-
+    height: 500px;
+    width: 720px;
 }
 .section5{
     display: flex;
     justify-content: space-between;
+    height: 400px;
 
 }
 .section5 .rem img{
