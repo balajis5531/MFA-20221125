@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ width: 97%;
+ 
+}
+.header{
+    background-image: url("images/desktop/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .logo{
+    padding-left: 10px;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 20px;
+    
+}
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    padding-right: 20px;   
+}
+.nav ul li a:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid #fff;
+    padding: 8px;
+    border-radius: 30px;
+}
+.header h1{
+    text-align: center;
+    color: #fff;
+    font-size: 52px;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    margin-top: 10%;
+}
+.header img{
+   margin-left: 45%;
+   margin-top: 10%;
+}
+
+/* section2 */
+.section2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* section3 */
+.section3{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 .row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section4{
+    display: flex;
+    justify-content: space-between;
+
+}
+.section4 .col{
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    max-height: 50vh;
+
+    position: relative;
+    
+}
+.section4 .col1{
+    background-image: url('images/desktop/image-photography.jpg');
+
+}
+.section5{
+    display: flex;
+    justify-content: space-between;
+
+}
+.section5 .rem img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.section5 .rem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* section6 */
+.section6 {
+    display: flex;
+    justify-content: space-between;
+}
+.section6 img{
+    width: 400px;
+    height: 400px;
+}
+/* section7 */
+.section7{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(168, 34%, 41%);
+}
+.section7 .iam{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
