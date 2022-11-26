@@ -90,18 +90,24 @@ body{
 .section4 .col{
     background-image: url("images/desktop/image-graphic-design.jpg");
     height: 500px;
-    width: 720px;
+    width: 723px;
+    text-align: center;
+    position: relative;
+    padding-top: 23%;
     
 }
 .section4 .col1{
     background-image: url('images/desktop/image-photography.jpg');
     height: 500px;
     width: 720px;
+    text-align: center;
+    position: relative;
+    padding-top: 23%;
 }
 .section5{
     display: flex;
     justify-content: space-between;
-    height: 400px;
+    height: 250px;
 
 }
 .section5 .rem img{
@@ -112,7 +118,7 @@ body{
 .section5 .rem{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 /* section6 */
@@ -128,9 +134,10 @@ body{
 .section7{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: hsl(168, 34%, 41%);
+    height: 300px;
 }
 .section7 .iam{
     display: flex;
